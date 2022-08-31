@@ -1,9 +1,10 @@
-console.log("hello");
-console.log("new commit");
-console.log("new commit 2"); 
+function x() {
 
-
-
-function hello(){
-    console.log("Hello")
+    for (let i = 1; i <= 5; i++) {
+        setTimeout(function() {
+            console.log(i);
+        }, i * 1000);
+    }
+    console.log("Namaste JS")
 }
+x();
